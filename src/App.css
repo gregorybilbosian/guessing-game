@@ -1,0 +1,22 @@
+:root{
+  /* CSS HSL */
+--candy-pink: hsla(356, 74%, 68%, 1);
+--spring-green: hsla(137, 88%, 68%, 1);
+--alice-blue: hsla(213, 27%, 92%, 1);
+--indigo-dye: hsla(199, 84%, 20%, 1);
+--black-coral: hsla(212, 17%, 33%, 1)
+}
+body {
+  background-color: var(--alice-blue);
+  min-height: 100vh;
+  margin: 0;
+  
+}
+#root{
+  min-height: 100vh;
+
+}
+.App{
+  display: grid;
+  place-items: center;
+}
